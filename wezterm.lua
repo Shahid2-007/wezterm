@@ -5,10 +5,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
-
--- config.font = wezterm.font("Meslo LG M Nerd Font")
 config.font = wezterm.font("FreeMono", { weight = "Bold", stretch = "Normal", style = "Normal" })
--- config.font = wezterm.font("SourceCodeVF", { weight = "DemiBold" })
 config.font_size = 16
 
 config.enable_tab_bar = false
